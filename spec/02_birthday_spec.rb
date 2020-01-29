@@ -27,3 +27,5 @@ describe "#age_appropriate_birthday" do
 
   end
 end
+age_appropriate_birthday(hash)
+  ha
