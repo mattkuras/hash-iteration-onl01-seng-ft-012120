@@ -27,9 +27,13 @@ describe "#age_appropriate_birthday" do
 
   end
 end
-age_appropriate_birthday(birthday_kids)
-  birthday_kids.each do |kids_name, age|
+
+age_appropriate_birthday(kids)
+  kids.each do |kids_name, age|
   if age <= 12 
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
   end
 end
+
+
+
